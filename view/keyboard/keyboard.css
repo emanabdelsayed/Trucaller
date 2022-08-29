@@ -1,0 +1,72 @@
+.ctnr{
+  background-color: rgb(255, 255, 255);
+  height: 560px;
+  width: 320px;
+  margin: auto;
+  margin-top: 50px;
+  
+}
+
+
+
+
+.numbers{
+  margin-left: 21px;
+  width: 270px;
+  height: 430px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+.numbers .num{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(74, 107, 214);
+  margin: 8px;
+  border-radius: 50%;
+}
+
+.numbers .num p{
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+.numbers #ex{
+  float: right;
+}
+.numbers .num p:hover{
+  color: rgb(74, 107, 214);
+  
+}
+
+.ctnr .input{
+  color: rgb(74, 107, 214);
+    outline: none; 
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-bottom: 2px rgb(74, 107, 214) solid;
+    width: 1300px;
+    text-align: center;
+    width: 270px;
+    height: 70px;
+    margin: 20px; 
+}
+.numbers a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.numbers .num:hover{
+  background-color: #ffffff;
+}
+body{
+  background-color: #000000;
+}
+.numbers a:hover{
+  color: rgb(74, 107, 214);
+}

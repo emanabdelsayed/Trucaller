@@ -1,0 +1,111 @@
+ .ctnr{
+    background-color: rgb(74, 107, 214);
+    height: 550px;
+    width: 320px;
+    border-radius: 7px;
+  
+  }
+  
+  
+  
+  
+  .numbers{
+    margin-left: 21px;
+    width: 270px;
+    height: 430px;
+    background-color: rgb(74, 107, 214);
+  }
+  .numbers .num{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    margin: 8px;
+    border-radius: 50%;
+  }
+  .numbers .num:hover{
+      background-color: #343434;
+  }
+  .numbers .num p{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(74, 107, 214);
+  }
+  .numbers #ex{
+    float: right;
+  }
+  
+  .ctnr .input{
+    background-color: rgb(255, 255, 255);
+      outline: none; 
+      border: none;
+      line-height: 1;
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: rgb(74, 107, 214);
+      width: 1300px;
+      text-align: center;
+      width: 270px;
+      height: 70px;
+      margin: 20px; 
+      border-radius: 7px;
+  }
+  .numbers a{
+    text-decoration: none;
+    color: rgb(74, 107, 214);
+  }
+
+  .container{
+    display: grid;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 992px;
+    margin: 600px;
+}
+
+.btn{
+    padding-top: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.btn.active{
+    box-shadow: 0 0 0 0.125rem rgba(255, 255, 255, 0.5);
+}
+
+.drop-wrapper{
+    position: relative;
+}
+
+.drop-menu{
+    display: none;
+    position: absolute;
+    width: 150px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 3px 0 #ccc;
+}
+
+.drop-menu.active{
+    display: block;
+}
+.dropup{
+    bottom: 100%;
+    margin-bottom: 0.125rem;
+}
+
+
+.drop-menu a{
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #343434;
+} 
